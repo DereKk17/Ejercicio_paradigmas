@@ -41,7 +41,7 @@ public class Ejercicio_Materias {
                 System.out.println(Arrays.toString(asignaturasInscirtas));
 
             case 5:
-                System.out.println("sus materias han sido inscritas correctamente?");
+                System.out.println("sus materias han sido inscritas correctamente? ");
         }
 
         Scanner entrada = new Scanner(System.in);
