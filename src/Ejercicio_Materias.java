@@ -1,5 +1,6 @@
 import jdk.swing.interop.SwingInterOpUtils;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ejercicio_Materias {
@@ -21,14 +22,26 @@ public class Ejercicio_Materias {
 
         switch (menu){
             case 1:
+                System.out.println(Arrays.toString(ASIGNATURASDISPONIBLES));
+
 
             case 2:
 
             case 3:
+                Scanner cancelar = new Scanner(System.in);
+                System.out.println(Arrays.toString(asignaturasInscirtas));
+                System.out.println("ingrese la letra de la materia para cancelar: ");
+               String materia = cancelar.next();
+               if (materia =="a"){
+
+               }
+
 
             case 4:
+                System.out.println(Arrays.toString(asignaturasInscirtas));
 
             case 5:
+                System.out.println("sus materias han sido inscritas correctamente?");
         }
 
         Scanner entrada = new Scanner(System.in);
