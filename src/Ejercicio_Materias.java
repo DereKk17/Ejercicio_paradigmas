@@ -30,7 +30,7 @@ public class Ejercicio_Materias {
             case 3:
                 Scanner cancelar = new Scanner(System.in);
                 System.out.println(Arrays.toString(asignaturasInscirtas));
-                System.out.println("ingrese la letra de la materia para cancelar : ");
+                System.out.println("ingrese la letra de la materia para cancelar: ");
                String materia = cancelar.next();
                if (materia =="a"){
 
